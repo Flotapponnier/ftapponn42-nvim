@@ -22,6 +22,7 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+vim.wo.relativenumber = true   -- Afficher les numéros relatifs
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
